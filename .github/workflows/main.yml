@@ -1,9 +1,1 @@
-git clone https://huggingface.co/spaces/himanshu08/diabetes-predicter
-import gradio as gr
 
-def greet(name):
-    return "Hello " + name + "!!"
-
-demo = gr.Interface(fn=greet, inputs="text", outputs="text")
-demo.launch()
-git add app.py && git commit -m 'Add application file' && git push
